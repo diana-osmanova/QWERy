@@ -1,0 +1,10 @@
+$(function(){
+  $('.volcano-bromo__slider').slick({
+    prevArrow: '<img class="slider__arrow slider__arrow-left" src="images/arrow-left.svg" alt="arrow left">',
+    nextArrow: '<img class="slider__arrow slider__arrow-right" src="images/arrow-right-slider.svg" alt="arrow right">'
+  });
+
+  $('.menu-btn').on('click', function () {
+    $('.menu__list').toggleClass('active');
+  });
+});
